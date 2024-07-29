@@ -32,13 +32,13 @@ const ImageCarousel = () => {
                     }} key={img.id}>
                 </div>
                 )}
-                <div className="carouselDots__container">
+                {/* <div className="carouselDots__container">
                   {carouselImageList.map(item => <div 
                     className='carouselDots' 
                     onClick={() => setCarouselItemIndex(item.id)}
                     style={{backgroundColor: item.id === carouselItemIndex && '#777'}}
                  />)}  
-                </div>
+                </div> */}
                 
             </div>
         </div>

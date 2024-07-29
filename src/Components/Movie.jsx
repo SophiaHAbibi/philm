@@ -17,7 +17,7 @@ const Movie = () => {
   }, [id]);
 
   return (
-    <div className="mt-[50px] w-full px-4 lg:px-[40px] z-[80]">
+    <div className="mt-[50px] w-full px-4 lg:px-[40px]">
       <h1>{movie.title}</h1>
       <img src={movie.poster} alt={movie.title} width={200} height={200} />
       <p>{movie.genres}</p>
